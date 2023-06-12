@@ -1,4 +1,4 @@
-package ru.startois.pastebox.controller.api.request;
+package ru.startois.pastebox.api.request;
 
 public enum PublicStatus {
     PUBLIC,
