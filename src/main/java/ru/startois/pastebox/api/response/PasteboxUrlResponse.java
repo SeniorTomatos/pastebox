@@ -1,8 +1,10 @@
 package ru.startois.pastebox.api.response;
 
 import lombok.Data;
+import lombok.RequiredArgsConstructor;
 
 @Data
+@RequiredArgsConstructor
 public class PasteboxUrlResponse {
-    private String url;
+    private final String url;
 }

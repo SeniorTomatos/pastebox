@@ -9,6 +9,6 @@ public interface PasteboxRepository {
 
     List<PasteboxEntity> getListOfPublicAndAlive(int amount);
 
-    PasteboxEntity add(PasteboxEntity pasteboxEntity);
+    void add(PasteboxEntity pasteboxEntity);
 
 }
